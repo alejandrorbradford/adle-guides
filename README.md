@@ -11,5 +11,5 @@ hosts (Wix's `usrfiles.com` among them) but accepts `raw.githubusercontent.com`.
 | `adle-anuncios-que-no-parecen-anuncios.pdf` | 24 | Spanish |
 
 The PDF is a re-encoded copy of the original design export, reduced from
-11.5 MB to 3.8 MB so it is reasonable to attach to an email. Page images are
-1400px wide, which stays sharp on screen at full-page zoom.
+11.5 MB to 2.4 MB so it is reasonable to attach to an email. Page images are
+1100px wide, which stays sharp on screen at full-page zoom.
