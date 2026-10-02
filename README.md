@@ -9,7 +9,14 @@ hosts (Wix's `usrfiles.com` among them) but accepts `raw.githubusercontent.com`.
 | File | Pages | Language |
 |---|---|---|
 | `adle-anuncios-que-no-parecen-anuncios.pdf` | 24 | Spanish |
+| `adle-ads-that-dont-look-like-ads.pdf` | 24 | English |
 
-The PDF is a re-encoded copy of the original design export, reduced from
-11.5 MB to 2.4 MB so it is reasonable to attach to an email. Page images are
-1100px wide, which stays sharp on screen at full-page zoom.
+Both PDFs are page-image builds sized to fit Brevo's 4 MB ceiling on content
+plus attachment, which is measured on the base64 encoding at roughly 1.33x the
+file. The Spanish edition is a re-encode of the original design export
+(11.5 MB down to 2.4 MB, 1100px pages). The English edition was rebuilt from
+scratch in HTML and rendered at 1200px, 2.5 MB.
+
+Link to a commit SHA rather than a branch: GitHub's raw CDN serves a stale file
+for minutes after a push, and a branch URL would let an attachment change under
+a campaign that already went out.
